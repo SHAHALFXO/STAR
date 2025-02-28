@@ -1,0 +1,170 @@
+/* Custom Navbar Styling */
+.navbar {
+    height: 90px; /* Adjusted to match Starbucks */
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #000;
+    transition: color 0.3s ease-in-out;
+    padding: 10px 20px;
+}
+
+/* Find a Store */
+.find-store img {
+    
+    width: 40px;
+}
+
+.find-store span {
+    font-size: 14px;
+}
+
+
+.sign-in-btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+/* Join Now Button */
+.join-now-btn {
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Ensure sections appear below navbar */
+.content-container {
+    margin-top: 30px; /* Adjust if needed based on navbar height */
+   max-width: 98%;
+   margin-left: 1%;
+    
+}
+
+/* Add spacing between sections */
+.section {
+    padding: 80px 20px;
+    text-align: center;
+}
+hr{
+    border: 1px solid white;
+}
+.one{
+    background-color: #00704A;
+    
+    
+}
+.two{
+    background-color: #00704A;
+    height: 627px;
+    
+    
+
+}
+h1 {
+    font-size: 3.5rem; /* Scales better with the parent div */
+    text-align: center;
+    color: white;
+    letter-spacing: 0.05em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    max-width: 70%;
+    word-break: keep-all;
+}
+
+p {
+    font-size: 1.6rem; /* More fluid scaling */
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 350;
+    line-height: 1.5;
+    max-width: 75%;
+}
+
+.button1 {
+    background-color: transparent;
+    border: 0.1rem solid white;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+    color: white;
+    font-size: 1rem;
+}
+.three{
+    background-color: #f5f3f0;
+}
+h2{
+    font-size: 3.5rem; /* Scales better with the parent div */
+    text-align: center;
+    color: black;
+    letter-spacing: 0.05em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    max-width: 70%;
+    word-break: keep-all;
+
+}
+#p2{
+    font-size: 1.6rem; /* More fluid scaling */
+    color: #00704A;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 350;
+    line-height: 1.5;
+    max-width: 75%;
+
+}
+
+.line{
+    border: 2px solid #9ea19b;
+    width: 100%;
+}
+h4{
+    text-align: center;
+    margin-top: 6vh;
+    font-weight: 500;
+    font-size: clamp(14px, 1.2vw, 16px);
+    line-height: 1.7;
+    
+}
+ul.list-unstyled li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 3;
+    color: #6c757d;
+  
+}
+.side{
+    width: 40px;
+    margin-top: 18px;
+    padding-left: 13px;
+
+}
+h5{
+    margin-left: 14px;
+    margin-top: 28px;
+    text-align: left;
+    font: 1em sans-serif;
+    font-size: 15px;
+    font-weight: 310;
+}
+h6{
+    margin-left: 14px;
+    
+    text-align: left;
+    font-size: 14px;
+    color: gray;
+}
+
+
+
+
